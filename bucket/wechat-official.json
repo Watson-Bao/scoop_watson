@@ -10,7 +10,7 @@
     "hash": "38148311ea13440b64bd68647f7a06721f1af7f0c6fff9f3e07516162252c18c",
     "installer": {
         "script": [
-            "Remove-Item \"$dir\\`$PLUGINSDIR\", \"$dir\\`$_15_\", \"$dir\\`$R5\" -Force -Recurse",
+            "Remove-Item \"$dir\\`$*\", \"$dir\\Uninst*\" -Force -Recurse",
             "$configpath = \"$env:APPDATA\\Tencent\\WeChat\\All Users\\config\"",
             "ensure \"$configpath\" | Out-Null",
             "Set-Content -NoNewline -Path \"$configpath\\3ebffe94.ini\" -Value \"$persist_dir\"",

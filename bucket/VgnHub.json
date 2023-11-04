@@ -13,6 +13,7 @@
         ]
     },
     "checkver": {
+        "url": "https://api.vgn.cn/device/update/win32/version",
         "regex": "https://cdn.vgnclub.com/device/download/win32/([\\d.]+)/v-device-([\\d.]+).exe"
     },
     "autoupdate": {

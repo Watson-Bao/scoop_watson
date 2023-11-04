@@ -13,6 +13,7 @@
         ]
     },
     "checkver": {
+        "url": "https://desktop.vxe.com/home",
         "regex": "https://cdn.vgnclub.com/device/download/win32/([\\d.]+)/v-device-[\\d.]+.exe"
     },
     "autoupdate": {

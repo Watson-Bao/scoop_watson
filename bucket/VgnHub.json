@@ -14,7 +14,7 @@
     },
     "checkver": {
         "url": "https://api.vgn.cn/device/update/win32/version",
-        "regex": "https://cdn.vgnclub.com/device/download/win32/([\\d.]+)/v-device-([\\d.]+).exe"
+        "regex": "已经更新了我们的驱动程序至([\\d.]+)版本"
     },
     "autoupdate": {
         "url": "https://cdn.vgnclub.com/device/download/win32/$version/v-device-$version.exe#/dl.7z"

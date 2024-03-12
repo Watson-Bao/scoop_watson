@@ -17,7 +17,7 @@
         "regex": "已经更新了我们的驱动程序至([\\d.]+)版本"
     },
     "autoupdate": {
-        "url": "https://cdn.vgnclub.com/device/download/win32/$version/v-device-$version.exe#/dl.7z"
+        "url": "https://cdn.vgnclub.com/device/download/win32/$version/atk-v-device-$version.exe#/dl.7z"
     },
     "shortcuts": [
         [

@@ -1,6 +1,6 @@
 {
-    "version": "0.4.0",
-    "hash": "4acbc2d51bcec7d8a080063330e50979417904edffb90875844305fc837519d0",
+    "version": "2.0.0",
+    "hash": "",
     "description": "Drop any files to any devices on your LAN.",
     "homepage": "https://landrop.app",
     "license": "Public Domain",

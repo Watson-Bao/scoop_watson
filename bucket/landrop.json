@@ -1,5 +1,5 @@
 {
-    "version": "0.4.0",
+    "version": "2.0.0",
     "description": "Drop any files to any devices on your LAN.",
     "homepage": "https://landrop.app",
     "license": "Public Domain",
@@ -9,7 +9,7 @@
     "architecture": {
         "64bit": {
             "url": "https://releases.landrop.app/LANDrop-latest-win.zip",
-            "hash": "cd4b27d77212731f70cf24d7fbcfd89cb44df060fa66efe7bd3464675afd4be4"
+            "hash": "dc5cb58bdbcaa4285bfffb512228794b6328944dabc0226f035f85ceefed749d"
         }
     },
     "pre_install": "Remove-Item \"$dir\\vc_redist*exe\"",

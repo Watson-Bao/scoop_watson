@@ -3,9 +3,6 @@
     "description": "Drop any files to any devices on your LAN.",
     "homepage": "https://landrop.app",
     "license": "Public Domain",
-    "suggest": {
-        "vcredist": "extras/vcredist2022"
-    },
     "architecture": {
         "64bit": {
             "url": "https://releases.landrop.app/LANDrop-latest-win.zip",

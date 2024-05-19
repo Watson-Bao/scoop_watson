@@ -1,6 +1,5 @@
 {
     "version": "2.0.0",
-    "hash": "",
     "description": "Drop any files to any devices on your LAN.",
     "homepage": "https://landrop.app",
     "license": "Public Domain",

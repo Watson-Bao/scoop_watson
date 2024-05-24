@@ -14,7 +14,7 @@
     },
     "checkver": {
         "url": "https://api.vgn.cn/device/update/win32/version",
-        "regex": "已经更新了我们的驱动程序至([\\d.]+)版本"
+        "regex": "\"version\":\"([\\d.]+)\""
     },
     "autoupdate": {
         "url": "https://cdn.vgn.cn/device/download/win32/$version/atk-v-device-$version.exe#/dl.7z"

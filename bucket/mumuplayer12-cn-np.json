@@ -28,11 +28,11 @@
     "shortcuts": [
         [
             "shell\\MuMuPlayer.exe",
-            "MuMu模拟器"
+            "MuMu模拟器12"
         ],
         [
             "shell\\MuMuMultiPlayer.exe",
-            "MuMu多开器"
+            "MuMu多开器12"
         ]
     ],
     "persist": "vms",

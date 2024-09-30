@@ -5,7 +5,7 @@
     "license": {
         "identifier": "Proprietary"
     },
-    "url": "http://dl-t1.wmzhe.com/13/13163/PureCodec20240924.exe#/dl.7z",
+    "url": "http://dl-t1.wmzhe.com/13/13163/PureCodec20240730.exe#/dl.7z",
     "hash": "01acce8fc05aa964cced1a5a10bcc9ab0c01e1ba14aeb676f1a27c9fd7e64c27",
     "pre_install": "@('$LOCALAPPDATA', '$PLUGINSDIR', '[NSIS].nsi', 'uninst.exe') | ForEach-Object { Remove-Item \"$dir\\$_\" -Recurse -Force -ErrorAction SilentlyContinue }",
     "architecture": {

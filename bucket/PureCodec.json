@@ -39,11 +39,6 @@
         "regex": "https://dl-t1.wmzhe.com/(?<path>.*?)/PureCodec(\\d+).exe"
     },
     "autoupdate": {
-        "url": "http://dl-t1.wmzhe.com/$matchPath/PureCodec$version.exe#/dl.7z",
-        "hash": {
-            "url": "http://qxys.3vfree.cn/ShowPost.asp?ThreadID=206",
-            "mode": "extract",
-            "regex": "(?sm)$basename.*?SHA1: $sha1"
-        }
+        "url": "http://dl-t1.wmzhe.com/$matchPath/PureCodec$version.exe#/dl.7z"
     }
 }

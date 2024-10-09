@@ -1,17 +1,19 @@
 {
-    "version": "2.5.0",
+    "version": "2.6.0",
     "description": "Drop any files to any devices on your LAN.",
     "homepage": "https://landrop.app",
     "license": "Public Domain",
-    "url": "https://releases.landrop.app/landrop-v2-electron/LANDrop-2.7.1-win-x64-setup.exe",
-    "hash": "08bb53a299f1b64d2c6c24bbc181107dec0e3e660277039baad1f22690097703",
-    "extract_dir": "$PLUGINSDIR",
-    "extract_to": "package",
+    "architecture": {
+        "64bit": {
+            "url": "https://releases.landrop.app/landrop-v2-electron/LANDrop-2.7.1-win-x64-setup.exe#/dl.7z",
+            "hash": "08bb53a299f1b64d2c6c24bbc181107dec0e3e660277039baad1f22690097703",
+            "extract_dir": "$PLUGINSDIR"
+        }
+    },
     "installer": {
         "script": [
-            "Expand-7zipArchive -Path \"$dir/package/app-64.7z\" -DestinationPath \"$dir\"",
-            "Remove-Item \"$dir/package/\" -Recurse -Force",
-            "Remove-Item \"$dir\\vc_redist*exe\""
+            "Remove-Item \"$dir\\*\" -Exclude 'app-64.7z' -Force -Recurse",
+            "Expand-7zipArchive \"$dir\\app-64.7z\" \"$dir\" -Removal"
         ]
     },
     "shortcuts": [

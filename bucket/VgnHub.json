@@ -1,11 +1,11 @@
 {
-    "hash": "3f2b5180870cb45f15873ace9b3bee95d20238fb695fda1381f60bec7f79fdc0",
+    "hash": "a5c57cfd8e422c5c3093a51d8aac3eed43d64e1cbfe5beee72fda810208acc48",
     "homepage": "https://desktop.vxe.com/home",
-    "url": "https://cdn.vgn.cn/device/download/win32/2.3.60/atk-v-device-2.3.60.exe#/dl.7z",
+    "url": "https://cdn.vgn.cn/device/download/win32/2.3.61/atk-v-device-2.3.61.exe#/dl.7z",
     "license": "Public Domain",
     "extract_dir": "$PLUGINSDIR",
     "extract_to": "package",
-    "version": "2.3.60",
+    "version": "2.3.61",
     "installer": {
         "script": [
             "Expand-7zipArchive -Path \"$dir/package/app-64.7z\" -DestinationPath \"$dir\"",

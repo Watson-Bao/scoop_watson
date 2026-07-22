@@ -32,9 +32,9 @@
     "checkver": {
         "url": "https://api.github.com/repos/LeagueAkari/LeagueAkari/releases",
         "jsonpath": "$[0].assets[*].browser_download_url",
-        "regex": "/releases/download/v([\\w.-]+)/League.Akari-([\\w.-]+)-win\\.7z"
+        "regex": "/releases/download/v([\\w.-]+)/league-akari-win-x64\\.7z"
     },
     "autoupdate": {
-        "url": "https://github.com/LeagueAkari/LeagueAkari/releases/download/v$version/League.Akari-$version-win.7z"
+        "url": "https://github.com/LeagueAkari/LeagueAkari/releases/download/v$version/league-akari-win-x64.7z"
     }
 }
